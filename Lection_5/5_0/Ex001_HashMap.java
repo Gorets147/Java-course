@@ -18,7 +18,7 @@ public class Ex001_HashMap {
         System.out.println(db.containsKey(1)); // true
         System.out.println(db.keySet());
         System.out.println(db.values());
-
+        int a = 123;
 
     }
 }
