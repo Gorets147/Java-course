@@ -8,14 +8,18 @@ public class Cat {
     private String breed;
     private int age;
 
+    private int weight;
+
     public Cat(String owner, String nickName, String color,
                String breed,
-               int age){
+               int age,
+               int weight){
         this.nickName = nickName;
         this.owner = owner;
         this.color = color;
         this.breed = breed;
         this.age = age;
+        this.weight = weight;
     }
 
     public String getOwner(){
@@ -57,6 +61,8 @@ public class Cat {
     public void setAge(int age){
         this.age = age;
     }
+
+
 
 
     @Override

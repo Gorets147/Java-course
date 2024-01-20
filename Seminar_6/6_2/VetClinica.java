@@ -9,12 +9,12 @@ import java.util.Set;
 //        его кличка, цвет и возраст (или другие параметры на ваше усмотрение).
 public class VetClinica {
     public static void main(String[] args) {
-        Cat vaska = new Cat("Peter", "Vaska", "Red", "Dvorterier", 2);
-        Cat vaska2 = new Cat("Peter", "Vaska", "Red", "Dvorterier", 2);
-        Cat murka = new Cat("Ivan", "Murka", "Grey", "Siam", 3);
-        Cat murka2 = new Cat("Ivan", "Murka", "Grey", "Siam", 3);
-        Cat murka3 = new Cat("Ivan", "Murka", "Grey", "Siam", 3);
-        Cat barsik = new Cat("Aleksey", "Barsik", "Brown", "Siberian", 1);
+        Cat vaska = new Cat("Peter", "Vaska", "Red", "Dvorterier", 2, 7);
+        Cat vaska2 = new Cat("Peter", "Vaska", "Red", "Dvorterier", 2, 4);
+        Cat murka = new Cat("Ivan", "Murka", "Grey", "Siam", 3,3);
+        Cat murka2 = new Cat("Ivan", "Murka", "Grey", "Siam", 3,5);
+        Cat murka3 = new Cat("Ivan", "Murka", "Grey", "Siam", 3,6);
+        Cat barsik = new Cat("Aleksey", "Barsik", "Brown", "Siberian", 1,2);
 
         Set<Cat> cats = new HashSet<>(Arrays.asList(vaska, vaska2, murka, murka2, murka3, barsik));
 
